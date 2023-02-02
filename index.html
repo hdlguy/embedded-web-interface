@@ -5,36 +5,65 @@
     <title> web1</title>
 </head>
 <body>
-    <img src="./8163303.png" alt="Keyboard worker">
+    <header>
+        <img src="./8163303.png" alt="Keyboard worker">
+    </header>
+    <nav>
+        <a href="#regular">regular text</a> 
+        <a href="#emphasized">emphasized text</a> 
+        <a href="#strong">strong text</a> 
+        <a href="#strong_emphasized">strong emphasized text</a> 
+        <a href="#block_quoted">block quoted text</a> 
+        <a href="https://www.google.com"> Google Search</a>.
+    </nav>
+    <main>
+        <strong>Web1 for HTML Experimentation</strong>
+        <article>
+            Some kind of article content.
+            <section>
+                This is a section within an article.
+            </section>
+        </article>
+        <aside>
+            This is an aside.
+        </aside>
+    </main>
     <hr width=50%>
     <h1> web1 webpage </h1>
 
-    <h2> Goals </h2>
+    <section>
+        <h2> Goals </h2>
+        <ul>
+            <li>learn to write properly structured html</li>
+            <li>learn to decorate html with CSS tags</li>
+            <li>learn to serve javascript to the web browser</li>
+            <li>learn to write some server side PHP</li>
+            <li>learn to supply data from embedded fpga hardware to the browser to display using javascript</li>
+        </ul>
+    </section>
 
-    <ul>
-        <li>learn to write properly structured html</li>
-        <li>learn to decorate html with CSS tags</li>
-        <li>learn to serve javascript to the web browser</li>
-        <li>learn to write some server side PHP</li>
-        <li>learn to supply data from embedded fpga hardware to the browser to display using javascript</li>
-    </ul>
+    <section>
+        <h2> Text Formatting </h2>
 
-    <h2> Text Formatting </h2>
+        <h3 id="regular"> Regular Text</h3>
+        This is text.<span style="font-variant: small-caps"> This is text within a small-caps span. </span>
 
-    <h3> Regular Text</h3>
-    This is text.  See <a href="#block_anchor">block quoted text</a> or do a <a href="https://www.google.com"> Google Search</a>.
+        <h3 id="emphasized"> Emphasized Text</h3>
+        This is emphasized <em>text</em>. 
 
-    <h3> Emphasized Text</h3>
-    This is emphasized <em>text</em>. 
+        <h3 id="strong"> Strong Text</h3>
+        This is strong <strong>text</strong>.
 
-    <h3> Strong Text</h3>
-    This is strong <strong>text</strong>.
+        <h3 id="strong_emphasized"> Strong Emphasized Text</h3>
+        This is ephasized and strong <strong><em>text</em></strong>.
 
-    <h3> Strong Emphasized Text</h3>
-    This is ephasized and strong <strong><em>text</em></strong>.
+        <h3 id="block_quoted">Block Quoted Text</h3>
+        Entire paragraphs can be block quoted. <blockquote> "Now is the time for all good men to come to the aid of their party."</blockquote>
+    </section>
 
-    <h3 id="block_anchor">Block Quoted Text</h3>
-    Entire paragraphs can be block quoted. <blockquote> Now is the time for all good men to come to the aid of their party.</blockquote>
+    <footer>
+        This is within a footer tag.
+    </footer>
 
 </body>
 
