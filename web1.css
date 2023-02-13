@@ -3,25 +3,22 @@ h1 {
     border-width: 2px;
     border-style: solid;
     border-color: magenta;
+    color: blue;
 }
 
 h2 {
     font-size: 1.5rem;
+    color: blue;
 }
 
 h3 {
     font-size: 1.0rem;
 }
 
-.header-class {
-    color: black;
-}
-
 p {
-    text-indent: 1rem;
+    text-indent: 1.0rem;
 }
 
 body {
-    color: tomato;
     background-color: lightgreen;
 }
