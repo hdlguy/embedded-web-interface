@@ -2,19 +2,32 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
-    <title> Pete's Web Page</title>
+    <title> embedded web interface</title>
     <link rel="stylesheet" href="web1.css">
-    <noscript>
-        Javascript is turned off in your browser.
-    </noscript>
-
+    <noscript> Javascript is turned off in your browser.  </noscript>
+    <script src="script1.js"> </script>
 </head>
+
 <body>
     <header>
         <img src="./8163303.png" alt="Keyboard worker">
     </header>
+
+    <button onclick="changeBackgroundColor('red')"> Make Background Red </button>
+    <button onclick="changeBackgroundColor('white')"> Make Background White </button>
+    <button onclick="alert('Hello Campers')">Sample Button</button>
+    <button onclick="showHelloAlert()">Show Hello</button>
+    <button onclick="changeColors('red', 'white')"> Change Colors </button>
+
+<!--
+    <script>
+        makeBackgroundRed();
+    </script>
+-->
+
     <nav>
         <a href="#regular">regular text</a> 
         <a href="#emphasized">emphasized text</a> 
@@ -38,7 +51,10 @@
     <hr width=50%>
 
     <h1> web1 webpage</h1>
-    <script src="script1.js"> </script>
+
+    <script> 
+        printModDate();
+    </script>
 
     <section>
         <h2> Goals </h2>
@@ -75,6 +91,7 @@
     <footer>
         This is within a footer tag.
     </footer>
+
 
 </body>
 
