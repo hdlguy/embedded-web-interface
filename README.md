@@ -1,2 +1,3 @@
 # embedded-web-interface
-Experimenting with ideas about controlling embedded hardware with a web interface.
+Experimenting with ideas about controlling embedded hardware with a web interface. (not mature)
+
